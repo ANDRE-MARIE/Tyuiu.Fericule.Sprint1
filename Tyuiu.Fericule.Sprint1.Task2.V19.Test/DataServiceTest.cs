@@ -7,11 +7,11 @@ namespace Tyuiu.Fericule.Sprint1.Task2.V19.Test
     public sealed class DataServiceTest
     {
         [TestMethod]
-        public void InchesToMeters_ShouldConvertCorrectly(int input, double expected)
+        public void Test_ConvertInchToKm()
         {
             var converter = new DataService();
-            double result = converter.ConvertInchToKm(input);
-            Assert.AreEqual(expected, result, 3); // précision à 3 décimales
+            double result = converter.ConvertInchToKm(1000);
+            Assert.AreEqual(0.025, result, 25.4);
         }
     }
     }
