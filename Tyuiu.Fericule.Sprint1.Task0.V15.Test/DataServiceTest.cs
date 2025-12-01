@@ -1,6 +1,5 @@
 ﻿
 using Tyuiu.Fericule.Sprint1.Task0.V15.Lib;
-
 namespace Tyuiu.Fericule.Sprint1.Task0.V15.Test
 {
     [TestClass]
